@@ -30,7 +30,7 @@ const config: QuartzConfig = {
         lightMode: {
           light: "#eff1f5", // background
           lightgray: "#DEDBE1", // search background?
-          gray: "#fb65c1", // text
+          gray: "#fb65c1", // text (date, "Search", dark, icon)
           darkgray: "#0b011e", // text?
           dark: "#0b011e", // text?
           secondary: "#fb65c1", // the bigger node
@@ -38,14 +38,14 @@ const config: QuartzConfig = {
           highlight: "#fb65c1",
         },
         darkMode: {
-          light: "#06000f", // background
-          lightgray: "#ebe1fe", // subtext
-          gray: "#ac7cfb", // search background?
-          darkgray: "#493D5A", // text?
-          dark: "#ebe1fe", // text?
-          secondary: "#f81669", // the bigger node
-          tertiary: "#f81669", // i.e. the sub-node
-          highlight: "#9a0461",
+          light: "#0b0907", // background
+          lightgray: "#c7b3a3", // search background?
+          gray: "#0b0907", // text (date, "Search", dark, icon)
+          darkgray: "#f3efec", // text
+          dark: "#f3efec", // text
+          secondary: "#5c6c42", // the bigger node
+          tertiary: "#82a972", // i.e. the sub-node
+          highlight: "#5c6c42",
         },
       }, 
     },
