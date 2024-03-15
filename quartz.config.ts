@@ -28,14 +28,14 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#eff1f5", // background
-          lightgray: "#DEDBE1", // search background?
-          gray: "#fb65c1", // text (date, "Search", dark, icon)
-          darkgray: "#0b011e", // text?
-          dark: "#0b011e", // text?
-          secondary: "#fb65c1", // the bigger node
-          tertiary: "##e9075a", // i.e. the sub-node
-          highlight: "#fb65c1",
+          light: "#f7f5f3", // background
+          lightgray: "#5c4838", // search background?
+          gray: "#f7f5f3", // text (date, "Search", dark, icon)
+          darkgray: "#0b0907", // text?
+          dark: "#0b0907", // text?
+          secondary: "#adbd93", // the bigger node
+          tertiary: "#678e57", // i.e. the sub-node
+          highlight: "#adbd93",
         },
         darkMode: {
           light: "#0b0907", // background
