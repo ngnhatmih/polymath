@@ -33,7 +33,7 @@ const config: QuartzConfig = {
           gray: "#f7f5f3", // text (date, "Search", dark, icon)
           darkgray: "#0b0907", // text?
           dark: "#0b0907", // text?
-          secondary: "#adbd93", // the bigger node
+          secondary: "#f7f5f3", // the bigger node
           tertiary: "#678e57", // i.e. the sub-node
           highlight: "#adbd93",
         },
@@ -43,7 +43,7 @@ const config: QuartzConfig = {
           gray: "#0b0907", // text (date, "Search", dark, icon)
           darkgray: "#f3efec", // text
           dark: "#f3efec", // text
-          secondary: "#5c6c42", // the bigger node
+          secondary: "#f3efec", // the bigger node
           tertiary: "#82a972", // i.e. the sub-node
           highlight: "#5c6c42",
         },
