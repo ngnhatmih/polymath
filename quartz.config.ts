@@ -47,7 +47,7 @@ const config: QuartzConfig = {
           tertiary: "#a6d189",
           highlight: "rgba(140, 170, 238, 0.15)",
         },
-      },
+      }, 
     },
   },
   plugins: {
