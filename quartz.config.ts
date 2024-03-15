@@ -38,15 +38,15 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#c7b3a3",
-          lightgray: "#393639",
-          gray: "#0b0907",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#5c6c42",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-        },
+          light: "#c7b3a3",       // Light brown - for primary background
+          lightgray: "#393639",   // Dark brown - for secondary background or accents
+          gray: "#0b0907",        // Black - for text or UI elements
+          darkgray: "#0B0907",    // Black - for darker UI elements or shadows
+          dark: "#ebebec",        // Off-white - for highlighted or emphasized elements
+          secondary: "#5c6c42",   // Olive green - for secondary accents
+          tertiary: "#84a59d",    // Pale green - for tertiary accents
+          highlight: "rgba(143, 159, 169, 0.15)",  // Light gray - for highlights or overlays
+        },        
       },
     },
   },
