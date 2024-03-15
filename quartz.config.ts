@@ -29,8 +29,8 @@ const config: QuartzConfig = {
       colors: {
         lightMode: {
           light: "#eff1f5", // background
-          lightgray: "#646168", // subtext
-          gray: "#fb65c1", // search background?
+          lightgray: "#DEDBE1", // search background?
+          gray: "#fb65c1", // text
           darkgray: "#0b011e", // text?
           dark: "#0b011e", // text?
           secondary: "#fb65c1", // the bigger node
