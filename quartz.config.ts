@@ -43,7 +43,7 @@ const config: QuartzConfig = {
           gray: "#ac7cfb", // search background?
           darkgray: "#ebe1fe", // text?
           dark: "#ebe1fe", // text?
-          secondary: "#990461", // the bigger node
+          secondary: "#f81669", // the bigger node
           tertiary: "#f81669", // i.e. the sub-node
           highlight: "#9a0461",
         },
