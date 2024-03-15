@@ -17,7 +17,7 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs({
-      spacerSymbol: "►", // symbol between crumbs
+      spacerSymbol: "/", // symbol between crumbs
       rootName: "Home", // name of first/root element
       resolveFrontmatterTitle: true, // whether to resolve folder names through frontmatter titles
       hideOnRoot: true, // whether to hide breadcrumbs on root `index.md` page
