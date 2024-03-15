@@ -28,25 +28,25 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#eff1f5",
+          lightgray: "#9ca0b0",
+          gray: "#7287fd",
+          darkgray: "#4c4f69",
+          dark: "#4c4f69",
+          secondary: "#1e66f5",
+          tertiary: "#40a02b",
+          highlight: "rgba(30, 102, 245, 0.15)",
         },
         darkMode: {
-          light: "#c7b3a3",       // Light brown - for primary background
-          lightgray: "#393639",   // Dark brown - for secondary background or accents
-          gray: "#0b0907",        // Black - for text or UI elements
-          darkgray: "#0B0907",    // Black - for darker UI elements or shadows
-          dark: "#ebebec",        // Off-white - for highlighted or emphasized elements
-          secondary: "#5c6c42",   // Olive green - for secondary accents
-          tertiary: "#84a59d",    // Pale green - for tertiary accents
-          highlight: "rgba(143, 159, 169, 0.15)",  // Light gray - for highlights or overlays
-        },        
+          light: "#303446",
+          lightgray: "#737994",
+          gray: "#babbf1",
+          darkgray: "#c6d0f5",
+          dark: "#c6d0f5",
+          secondary: "#8caaee",
+          tertiary: "#a6d189",
+          highlight: "rgba(140, 170, 238, 0.15)",
+        },
       },
     },
   },
