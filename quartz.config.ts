@@ -22,18 +22,18 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Share Tech Mono",
+        body: "Share Tech Mono",
+        code: "Share Tech Mono",
       },
       colors: {
         lightMode: {
-          light: "#f7f5f3", // background
-          lightgray: "#5c4838", // search background?
-          gray: "#f7f5f3", // text (date, "Search", dark, icon)
-          darkgray: "#0b0907", // text?
-          dark: "#0b0907", // text?
-          secondary: "#f7f5f3", // the bigger node
+          light: "#ffffff", // background
+          lightgray: "#5c4838", // search
+          gray: "#adbd93", // text (date, "Search", dark, icon)
+          darkgray: "#150C0B", // main text?
+          dark: "#150C0B", // text?
+          secondary: "#5c4838", // folder title text
           tertiary: "#678e57", // i.e. the sub-node
           highlight: "#adbd93",
         },
@@ -43,7 +43,7 @@ const config: QuartzConfig = {
           gray: "#0b0907", // text (date, "Search", dark, icon)
           darkgray: "#f3efec", // text
           dark: "#f3efec", // text
-          secondary: "#f3efec", // the bigger node
+          secondary: "#adbd93", // the bigger node
           tertiary: "#82a972", // i.e. the sub-node
           highlight: "#5c6c42",
         },

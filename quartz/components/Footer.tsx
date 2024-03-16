@@ -15,8 +15,7 @@ export default ((opts?: Options) => {
       <footer class={`${displayClass ?? ""}`}>
         <hr />
         <p>
-          {i18n(cfg.locale).components.footer.createdWith}{" "}
-          <a href="https://ngnhatmih.github.io/polymath/">Polymath</a> © {year}
+          
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
