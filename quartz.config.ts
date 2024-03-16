@@ -25,7 +25,7 @@ const config: QuartzConfig = {
         header: "Share Tech Mono",
         body: "Share Tech Mono",
         code: "Share Tech Mono",
-      },
+      }, 
       colors: {
         lightMode: {
           light: "#ffffff", // background
