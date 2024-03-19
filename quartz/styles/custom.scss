@@ -13,3 +13,24 @@
     display: none;
   }
 }
+
+// split coloumns
+.callout {
+  &[data-callout="empty"] {
+    --callout-icon: "" --color: transparent;
+    --border: transparent;
+    --bg: transparent;
+    & .callout-title {
+      display: none;
+    }
+    width: 50px;
+    padding: 5px;
+  }
+}
+
+img[src$=".svg"] {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}

@@ -49,7 +49,26 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer({
+      title: "/",
+      filterFn: (node) => !["Attachments", "Excalidraw", "tags"].includes(node.name),
+      sortFn: (a: FileNode, b: FileNode) => {
+        if (!a.file && !b.file) {
+          return a.displayName.localeCompare(b.displayName);
+        }
+        if (a.file && b.file) {
+          return a.file.dates.created < b.file.dates.created ? 1 : -1;
+        }
+        if (a.file && !b.file) {
+          return 1
+        }
+        else {
+          return -1
+        }
+      },
+      folderDefaultState: "open",
+      // mapFn: (node) => node.displayName = node.file ? `<strong>${node.file.dates.created.toISOString().split('T')[0]}</strong> - ${node.displayName}` : node.displayName,
+    })),
   ],
   right: [],
 }

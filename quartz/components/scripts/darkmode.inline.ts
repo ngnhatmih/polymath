@@ -1,6 +1,8 @@
-const userPref = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark"
-const currentTheme = localStorage.getItem("theme") ?? userPref
+import { getUserPreferredColorScheme, renderExcalidrawLinks } from "./util"
+const currentTheme = localStorage.getItem("theme") ?? getUserPreferredColorScheme()
 document.documentElement.setAttribute("saved-theme", currentTheme)
+
+
 
 const emitThemeChangeEvent = (theme: "light" | "dark") => {
   const event: CustomEventMap["themechange"] = new CustomEvent("themechange", {
@@ -14,6 +16,7 @@ document.addEventListener("nav", () => {
     const newTheme = (e.target as HTMLInputElement)?.checked ? "dark" : "light"
     document.documentElement.setAttribute("saved-theme", newTheme)
     localStorage.setItem("theme", newTheme)
+    renderExcalidrawLinks(newTheme)
     emitThemeChangeEvent(newTheme)
   }
 
@@ -24,7 +27,7 @@ document.addEventListener("nav", () => {
     toggleSwitch.checked = e.matches
     emitThemeChangeEvent(newTheme)
   }
-
+  
   // Darkmode toggle
   const toggleSwitch = document.querySelector("#darkmode-toggle") as HTMLInputElement
   toggleSwitch.addEventListener("change", switchTheme)
