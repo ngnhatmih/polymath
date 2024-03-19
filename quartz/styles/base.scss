@@ -347,7 +347,6 @@ pre {
   font-family: var(--codeFont);
   padding: 0 0.5rem;
   border-radius: 5px;
-  overflow-x: auto;
   border: 1px solid var(--lightgray);
   position: relative;
 
@@ -362,8 +361,7 @@ pre {
     counter-reset: line;
     counter-increment: line 0;
     display: grid;
-    padding: 0.5rem 0;
-    overflow-x: scroll;
+
 
     & [data-highlighted-chars] {
       background-color: var(--highlight);

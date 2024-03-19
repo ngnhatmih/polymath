@@ -34,3 +34,7 @@ img[src$=".svg"] {
   margin-right: auto;
   width: 25%;
 }
+
+pre > code {
+  overflow-x: hidden;
+}
