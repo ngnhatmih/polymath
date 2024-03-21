@@ -94,7 +94,6 @@ export const Skulpt: QuartzTransformerPlugin = () => {
                             lineNumbers: true,
                             indentUnit: 4,
                             matchBrackets: true,
-                            lineWrapping: true,
                             textWrapping: false,
                             height: "160px",
                             fontSize: "9pt",
