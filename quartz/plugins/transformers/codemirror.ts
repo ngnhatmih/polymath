@@ -16,7 +16,8 @@ export const CodeMirror: QuartzTransformerPlugin = () => {
                             const code = node.value;
                             const customHtml: Html = {
                                 type: "html",
-                                value: `<div><textarea id="code">${code}</textarea>
+                                value: `<div>
+                                <textarea id="editor">${code}</textarea>
                                 <pre id="output"></pre>
                                 <br /> 
                                 <button class="run-button">Run</button>
