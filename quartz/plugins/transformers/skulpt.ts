@@ -37,7 +37,7 @@ export const Skulpt: QuartzTransformerPlugin = () => {
                             console.log(err.toString());
                         });
                      }
-                     document.addEventListener("DOMContentLoaded", () => {
+                     document.addEventListener("nav", () => {
                         const button = document.querySelector(".run-button");
                         if (button) {
                             button.addEventListener("click", (_e) => {
