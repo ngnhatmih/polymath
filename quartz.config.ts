@@ -30,10 +30,10 @@ const config: QuartzConfig = {
         lightMode: {
           light: "#ffffff", // background
           lightgray: "#5c4838", // search
-          gray: "#adbd93", // text (date, "Search", dark, icon)
-          darkgray: "#150C0B", // main text?
+          gray: "#aded80", // text (date, "Search", dark, icon)
+          darkgray: "#150C2A", // main text?
           dark: "#150C0B", // text?
-          secondary: "#5c4838", // folder title text
+          secondary: "#5c4831", // folder title text
           tertiary: "#678e57", // i.e. the sub-node
           highlight: "#adbd93",
         },
@@ -70,6 +70,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
+      Plugin.Skulpt(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
