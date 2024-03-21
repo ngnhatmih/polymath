@@ -47,7 +47,7 @@ export const CodeMirror: QuartzTransformerPlugin = () => {
                 {
                     script: `
                     document.addEventListener('nav', async () => {
-                        var myarea = document.getElementById('code')
+                        var myarea = document.getElementById('editor')
                         var editor;
                         if (myarea != null) {
                             editor = CodeMirror.fromTextArea(myarea, {
