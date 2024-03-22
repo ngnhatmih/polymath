@@ -22,7 +22,7 @@ export const Skulpt: QuartzTransformerPlugin = () => {
                         return Sk.builtinFiles["files"][x];
                     }
                     function runit() { 
-                        var prog = document.getElementById("code").value; 
+                        var prog = document.getElementById("editor").value; 
                         var mypre = document.getElementById("output");
                         mypre.innerHTML = ''; 
                         Sk.pre = "output";
