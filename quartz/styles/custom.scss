@@ -63,8 +63,12 @@ pre > code {
 }
 
 .split {
-  display: flex;
-  flex-direction: row;
+  height: 300px;
+}
+
+.split > div {
+  float: left;
+  height: 100%;
 }
 
 .gutter {
@@ -77,3 +81,19 @@ pre > code {
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==");
   cursor: col-resize;
 }
+
+#split-0 {
+  flex: 1; 
+}
+
+#split-1 {
+  flex: 0 0 auto; 
+  height: 100%; 
+  overflow: hidden; 
+}
+
+#canvas {
+  border: none;
+}
+
+
