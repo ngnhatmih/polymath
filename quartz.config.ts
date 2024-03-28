@@ -60,7 +60,7 @@ const config: QuartzConfig = {
       Plugin.Latex({ renderEngine: "mathjax" }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "synthwave-84",
+          light: "github-light",
           dark: "synthwave-84",
         },
         keepBackground: false,

@@ -13,8 +13,8 @@ interface Options {
 
 const defaultOptions: Options = {
   theme: {
-    light: "monokai",
-    dark: "monokai",
+    light: "github-light",
+    dark: "synthwave-84",
   },
   keepBackground: false,
 }
