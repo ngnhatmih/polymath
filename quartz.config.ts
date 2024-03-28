@@ -22,32 +22,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Share Tech Mono",
-        body: "Share Tech Mono",
-        code: "Share Tech Mono",
+        header: "Raleway",
+        body: "Raleway",
+        code: "Raleway",
       }, 
       colors: {
         lightMode: {
-          light: "#ffffff", // background
-          lightgray: "#5c4838", // search
-          gray: "#aded80", // text (date, "Search", dark, icon)
-          darkgray: "#150C2A", // main text?
-          dark: "#150C0B", // text?
-          secondary: "#5c4831", // folder title text
-          tertiary: "#678e57", // i.e. the sub-node
-          highlight: "#adbd93",
-        },
+          light: "rgb(213, 214, 219)",
+          lightgray: "#CBCCD1",
+          gray: "#9699a3",
+          darkgray: "#343b58",
+          dark: "#8C4351",
+          secondary: "#8c4308",
+          tertiary: "#0F7B6C",
+          highlight: "#CBCCD1",
+},
         darkMode: {
-          light: "#0b0907", // background
-          lightgray: "#c7b3a3", // search background?
-          gray: "#0b0907", // text (date, "Search", dark, icon)
-          darkgray: "#f3efec", // text
-          dark: "#f3efec", // text
-          secondary: "#adbd93", // the bigger node
-          tertiary: "#82a972", // i.e. the sub-node
-          highlight: "#5c6c42",
-        },
-      }, 
+          light: "#1a1b26", // bg
+          lightgray: "#414868", // fg
+          gray: "#7aa2f7", // date
+          darkgray: "#c0caf5", // text
+          dark: "#ff9e64", // headers
+          secondary: "#f7768e", // name, tittle
+          tertiary: "#73daca", // hover and visited nodes
+          highlight: "#414868",
+},
+      },
     },
   },
   plugins: {
@@ -60,8 +60,8 @@ const config: QuartzConfig = {
       Plugin.Latex({ renderEngine: "mathjax" }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "github-light",
-          dark: "github-dark",
+          light: "monokai",
+          dark: "monokai",
         },
         keepBackground: false,
       }),
