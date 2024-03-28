@@ -60,8 +60,8 @@ const config: QuartzConfig = {
       Plugin.Latex({ renderEngine: "mathjax" }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "monokai",
-          dark: "monokai",
+          light: "synthwave-84",
+          dark: "synthwave-84",
         },
         keepBackground: false,
       }),
